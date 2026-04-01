@@ -32,13 +32,15 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ---
 
 ## ✅ Step 3: Verify Homebrew
-```bash
+bash
+```
 brew --version
 ```
 
 
 Expected output:
 nginx
+```
 Homebrew 5.x.x
 
 
