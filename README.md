@@ -9,7 +9,7 @@ This repository documents how I set up my Mac for development using Homebrew and
 ---
 
 ## 📦 Step 1: Install Homebrew
-```
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -22,7 +22,7 @@ This repository documents how I set up my Mac for development using Homebrew and
 ---
 
 ## ⚙️ Step 2: Add Homebrew to PATH
-
+bash
 ```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -32,20 +32,20 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ---
 
 ## ✅ Step 3: Verify Homebrew
-```
+```bash
 brew --version
 ```
 
 
 Expected output:
-
+nginx
 Homebrew 5.x.x
 
 
 ---
 
 ## 📦 Step 4: Install Node.js
-
+bash
 ```
 brew install node@22
 ```
@@ -54,12 +54,16 @@ brew install node@22
 ---
 
 ## ✅ Step 5: Verify Node
-
+bash
+```
+node -v
+```
 
 
 Expected output:
-
+```
 v22.x.x
+```
 
 
 
