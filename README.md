@@ -39,9 +39,9 @@ brew --version
 
 
 Expected output:
-nginx
 ```
 Homebrew 5.x.x
+
 
 
 ---
