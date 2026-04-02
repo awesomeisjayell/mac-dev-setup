@@ -1,4 +1,3 @@
-✅ Copy EVERYTHING below into your README:
 # Mac Dev Setup (Homebrew + Node.js)
 
 > Documenting my journey into development, AI, and automation 🚀
